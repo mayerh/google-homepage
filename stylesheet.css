@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #logo {
   position: absolute;
   left: 50%;
@@ -26,9 +31,29 @@ li {
   display: inline;  
 }
 
-#footer {
-  Position: relative;
-  clear: both;
-  top: 600px;
+.navbar {
+  color: gray;
+  text-decoration: none;
   
+}
+
+#nav {
+  float: right;
+}
+
+#footer {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #E8E8E8;
+  
+}
+
+#foot-right {
+  float: right;
+}
+
+#foot-left {
+  float: left;
 }
